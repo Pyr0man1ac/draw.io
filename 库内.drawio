@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T02:43:08.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="pMW_8jUBc0LP9MnbBtXU" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T03:08:51.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Crvh3mpjYIqbkacP9m1O" version="14.8.6" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="库存新增">
     <mxGraphModel dx="1221" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -54,10 +54,10 @@
           <mxGeometry x="50" y="130" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="khmbYB6SYAyQ8i3GjKcN-18" value="物料ID + 批次属性值*20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="15" width="140" height="20" as="geometry" />
+          <mxGeometry x="520" y="21" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="khmbYB6SYAyQ8i3GjKcN-19" value="仓库ID+ 货主编码&amp;nbsp;+ 物料ID + 库位ID + 批次属性ID + 质检状态 + 冻结状态 + 容器码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="310" y="15" width="460" height="20" as="geometry" />
+          <mxGeometry x="30" y="21" width="460" height="20" as="geometry" />
         </mxCell>
         <mxCell id="khmbYB6SYAyQ8i3GjKcN-46" value="库存交易" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="80" width="100" height="760" as="geometry" />
@@ -67,13 +67,13 @@
         </mxCell>
         <mxCell id="khmbYB6SYAyQ8i3GjKcN-48" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.517;entryY=1.12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="khmbYB6SYAyQ8i3GjKcN-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="70" as="sourcePoint" />
+            <mxPoint x="360" y="70" as="sourcePoint" />
             <mxPoint x="90" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="khmbYB6SYAyQ8i3GjKcN-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.214;entryY=1.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="khmbYB6SYAyQ8i3GjKcN-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="70" as="sourcePoint" />
+            <mxPoint x="170" y="70" as="sourcePoint" />
             <mxPoint x="550" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -155,6 +155,20 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="796" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6DR7MANpc7uys-FWB8WQ" name="超期复检">
+    <mxGraphModel dx="1483" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="UrUEmkiuRGqlsav2latk-0" />
+        <mxCell id="UrUEmkiuRGqlsav2latk-1" parent="UrUEmkiuRGqlsav2latk-0" />
+        <mxCell id="P6VEQezQomCpwh-jPhEp-15" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;sketch=1;" vertex="1" parent="UrUEmkiuRGqlsav2latk-1">
+          <mxGeometry x="30" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P6VEQezQomCpwh-jPhEp-16" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="UrUEmkiuRGqlsav2latk-1">
+          <mxGeometry x="90" y="50" width="100" height="790" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
