@@ -1,1 +1,162 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T01:55:56.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="V2y6iGXT7QUMxWN3FAPi" version="14.8.0" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-20T02:43:08.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="pMW_8jUBc0LP9MnbBtXU" version="14.8.6" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="库存新增">
+    <mxGraphModel dx="1221" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="批次属性" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="80" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="90" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="dispatch" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;sketch=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-210" y="70" as="sourcePoint" />
+            <mxPoint x="-140" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="50" y="122" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-27" value="查询是否已存在&lt;br&gt;不存在 则新增记录" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=1;" edge="1" target="khmbYB6SYAyQ8i3GjKcN-26" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="102" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="102" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="批次库存" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="70" width="10" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="50" y="247" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-45" value="查询是否已存在&lt;br&gt;存在 则更新记录&lt;br&gt;不存在 则新增记录" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=1;" edge="1" target="khmbYB6SYAyQ8i3GjKcN-44" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="227" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-56" value="查询批次属性ID" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="90" as="sourcePoint" />
+            <mxPoint x="240" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-1" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-18" value="物料ID + 批次属性值*20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="15" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-19" value="仓库ID+ 货主编码&amp;nbsp;+ 物料ID + 库位ID + 批次属性ID + 质检状态 + 冻结状态 + 容器码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="15" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-46" value="库存交易" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="80" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="khmbYB6SYAyQ8i3GjKcN-46">
+          <mxGeometry x="45" y="287" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-48" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.517;entryY=1.12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="khmbYB6SYAyQ8i3GjKcN-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="70" as="sourcePoint" />
+            <mxPoint x="90" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.214;entryY=1.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="khmbYB6SYAyQ8i3GjKcN-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="70" as="sourcePoint" />
+            <mxPoint x="550" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-67" value="返回批次属性ID" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;sketch=1;entryX=0.519;entryY=0.263;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="280" as="sourcePoint" />
+            <mxPoint x="200" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-70" value="生成库存交易" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=1;" edge="1" target="khmbYB6SYAyQ8i3GjKcN-69" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="367" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-71" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;sketch=1;entryX=0.538;entryY=0.478;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="khmbYB6SYAyQ8i3GjKcN-69" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-72" value="条码" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="80" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-88" value="" style="group" vertex="1" connectable="0" parent="khmbYB6SYAyQ8i3GjKcN-72">
+          <mxGeometry x="45" y="399" width="40" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-74" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="khmbYB6SYAyQ8i3GjKcN-88">
+          <mxGeometry width="10" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-86" value="" style="group" vertex="1" connectable="0" parent="khmbYB6SYAyQ8i3GjKcN-88">
+          <mxGeometry x="5" y="105" width="35" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="khmbYB6SYAyQ8i3GjKcN-86">
+          <mxGeometry y="20" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-80" value="新增条码" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=1;" edge="1" target="khmbYB6SYAyQ8i3GjKcN-79" parent="khmbYB6SYAyQ8i3GjKcN-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-87" value="" style="group" vertex="1" connectable="0" parent="khmbYB6SYAyQ8i3GjKcN-88">
+          <mxGeometry x="5" y="30" width="35" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="khmbYB6SYAyQ8i3GjKcN-87">
+          <mxGeometry y="20" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-78" value="若存在上级条码&lt;br&gt;合并计算上级条码" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=1;" edge="1" target="khmbYB6SYAyQ8i3GjKcN-77" parent="khmbYB6SYAyQ8i3GjKcN-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-73" value="条码交易" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="80" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-75" value="若条码管控 则新增条码" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=1;" edge="1" target="khmbYB6SYAyQ8i3GjKcN-74" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="479" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-76" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;sketch=1;entryX=0.538;entryY=0.763;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="khmbYB6SYAyQ8i3GjKcN-74" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="173.79999999999995" y="665.8800000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="925.6800000000001" y="720" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-82" value="生成条码交易" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=1;" edge="1" parent="1" target="khmbYB6SYAyQ8i3GjKcN-81" source="khmbYB6SYAyQ8i3GjKcN-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560.0035294117647" y="720" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khmbYB6SYAyQ8i3GjKcN-83" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;sketch=1;entryX=0.976;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="khmbYB6SYAyQ8i3GjKcN-81" target="khmbYB6SYAyQ8i3GjKcN-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="796" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
