@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T08:51:57.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="-Quh2S69IqmfkGTTmq-V" version="14.8.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-21T01:44:33.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="nYKB8zcOsNqXTrQ-B9WA" version="14.8.6" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="库存增加">
     <mxGraphModel dx="1221" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -160,7 +160,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eG1asfDwf6FLdmnC7euP" name="库存减少">
-    <mxGraphModel dx="1221" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="dT590uFpham1Hzz8gT_X-0" />
         <mxCell id="dT590uFpham1Hzz8gT_X-1" parent="dT590uFpham1Hzz8gT_X-0" />
@@ -169,6 +169,100 @@
         </mxCell>
         <mxCell id="FaVbg1Eos9PTALjBb21x-0" value="批次库存" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="dT590uFpham1Hzz8gT_X-1">
           <mxGeometry x="100" y="40" width="100" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="hVtVx9SvsU5BoiiyB1jp-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="FaVbg1Eos9PTALjBb21x-0">
+          <mxGeometry x="45" y="80" width="10" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="FaVbg1Eos9PTALjBb21x-0">
+          <mxGeometry x="50" y="250" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-4" value="汇总下级条码基本数量&lt;br&gt;赋值到批次库存基本数量" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=1;" edge="1" target="wh-JfY0XAgZVgajffxkr-3" parent="FaVbg1Eos9PTALjBb21x-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVtVx9SvsU5BoiiyB1jp-1" value="条码" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="dT590uFpham1Hzz8gT_X-1">
+          <mxGeometry x="400" y="40" width="100" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="hVtVx9SvsU5BoiiyB1jp-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="hVtVx9SvsU5BoiiyB1jp-1">
+          <mxGeometry x="45" y="130" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="hVtVx9SvsU5BoiiyB1jp-1">
+          <mxGeometry x="45" y="460" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hVtVx9SvsU5BoiiyB1jp-2" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="dT590uFpham1Hzz8gT_X-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="80" y="120" as="sourcePoint" />
+            <mxPoint x="150" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVtVx9SvsU5BoiiyB1jp-4" value="根据条码ID列表 查询条码" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=1;exitX=1.5;exitY=0.074;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="hVtVx9SvsU5BoiiyB1jp-3" parent="dT590uFpham1Hzz8gT_X-1" source="hVtVx9SvsU5BoiiyB1jp-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="dT590uFpham1Hzz8gT_X-1">
+          <mxGeometry x="445" y="380" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-9" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;sketch=1;entryX=1.22;entryY=0.495;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dT590uFpham1Hzz8gT_X-1" source="wh-JfY0XAgZVgajffxkr-8" target="hVtVx9SvsU5BoiiyB1jp-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-10" value="下级条码汇总基本数量 = 上级条码基本数量&lt;br&gt;删除上级条码&lt;br&gt;下级条码汇总基本数量 &amp;lt; 上级条码基本数量&lt;br&gt;更新上级条码" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=1;exitX=1.38;exitY=0.384;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dT590uFpham1Hzz8gT_X-1" target="wh-JfY0XAgZVgajffxkr-8" source="hVtVx9SvsU5BoiiyB1jp-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVtVx9SvsU5BoiiyB1jp-5" value="条码列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;sketch=1;entryX=0.98;entryY=0.186;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="hVtVx9SvsU5BoiiyB1jp-3" parent="dT590uFpham1Hzz8gT_X-1" target="hVtVx9SvsU5BoiiyB1jp-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-19" value="库存交易" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="dT590uFpham1Hzz8gT_X-1">
+          <mxGeometry x="630" y="40" width="100" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-20" value="条码交易" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="dT590uFpham1Hzz8gT_X-1">
+          <mxGeometry x="860" y="40" width="100" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-16" value="删除下级条码" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=1;exitX=1.06;exitY=0.561;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dT590uFpham1Hzz8gT_X-1" target="wh-JfY0XAgZVgajffxkr-14" source="hVtVx9SvsU5BoiiyB1jp-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="500" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-15" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;sketch=1;entryX=0.54;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dT590uFpham1Hzz8gT_X-1" source="wh-JfY0XAgZVgajffxkr-14" target="FaVbg1Eos9PTALjBb21x-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="dT590uFpham1Hzz8gT_X-1">
+          <mxGeometry x="901" y="620" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-22" value="生成条码交易" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=1;exitX=0.9;exitY=0.739;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dT590uFpham1Hzz8gT_X-1" target="wh-JfY0XAgZVgajffxkr-21" source="hVtVx9SvsU5BoiiyB1jp-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="611.5999999999999" y="621.48" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-23" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;sketch=1;entryX=0.54;entryY=0.772;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dT590uFpham1Hzz8gT_X-1" source="wh-JfY0XAgZVgajffxkr-21" target="FaVbg1Eos9PTALjBb21x-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="696.8000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;" vertex="1" parent="dT590uFpham1Hzz8gT_X-1">
+          <mxGeometry x="675" y="710" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-25" value="生成库存交易" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;sketch=1;exitX=1.14;exitY=0.869;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dT590uFpham1Hzz8gT_X-1" target="wh-JfY0XAgZVgajffxkr-24" source="hVtVx9SvsU5BoiiyB1jp-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="351.5999999999999" y="681.48" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wh-JfY0XAgZVgajffxkr-26" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;sketch=1;entryX=1.06;entryY=0.929;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dT590uFpham1Hzz8gT_X-1" source="wh-JfY0XAgZVgajffxkr-24" target="hVtVx9SvsU5BoiiyB1jp-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="751" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
