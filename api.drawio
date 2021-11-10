@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T05:27:47.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.7.1" etag="YWUnrYHJyNW589LoDiOs" type="github"><diagram id="5OmAYjAvA2Iin82_JVHf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-10T08:27:37.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="tdrpyJ9JzoASXUDOEKJC" version="15.7.1" type="github">
+  <diagram id="5OmAYjAvA2Iin82_JVHf" name="第 1 页">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0QZgncJWCN-Q1ZCE9T5g-2" value="api-server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0QZgncJWCN-Q1ZCE9T5g-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="10" y="40" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0QZgncJWCN-Q1ZCE9T5g-3" value="biz-services" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0QZgncJWCN-Q1ZCE9T5g-4">
+          <mxGeometry width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0QZgncJWCN-Q1ZCE9T5g-1" value="api-client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0QZgncJWCN-Q1ZCE9T5g-4">
+          <mxGeometry x="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0QZgncJWCN-Q1ZCE9T5g-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0QZgncJWCN-Q1ZCE9T5g-1" target="0QZgncJWCN-Q1ZCE9T5g-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
