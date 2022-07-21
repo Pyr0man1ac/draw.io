@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T05:15:30.121Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="BykSiwjmUJ1C3IYA2DxH" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-21T06:32:51.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zun0x82DwrNwp4lruz88" version="20.0.4" type="github">
   <diagram id="oWcdZRQ7xZrGSE6Tlrnx" name="第 1 页">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,13 +10,13 @@
         <mxCell id="QDC6DLgOSGsQadJOwINI-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-14" target="QDC6DLgOSGsQadJOwINI-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="220" y="190" />
-              <mxPoint x="460" y="190" />
+              <mxPoint x="220" y="161" />
+              <mxPoint x="460" y="161" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-14" value="内部调用入口" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="80" width="160" height="94" as="geometry" />
+          <mxGeometry x="140" y="51" width="160" height="94" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-15" value="+ field: 集成方案执行器&#xa;+ field: 接口方案执行器" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-14">
           <mxGeometry y="26" width="160" height="34" as="geometry" />
@@ -33,13 +33,13 @@
         <mxCell id="QDC6DLgOSGsQadJOwINI-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-18" target="QDC6DLgOSGsQadJOwINI-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="460" y="190" />
-              <mxPoint x="220" y="190" />
+              <mxPoint x="460" y="161" />
+              <mxPoint x="220" y="161" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-18" value="外部调用入口" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="80" width="160" height="94" as="geometry" />
+          <mxGeometry x="380" y="51" width="160" height="94" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-19" value="+ field: 集成方案执行器&#xa;+ field: 接口方案执行器" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-18">
           <mxGeometry y="26" width="160" height="34" as="geometry" />
@@ -51,7 +51,7 @@
           <mxGeometry y="68" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-22" value="集成方案执行器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="220" width="160" height="86" as="geometry" />
+          <mxGeometry x="140" y="191" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-23" value="+ field: 集成对象执行器" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-22">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -63,7 +63,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-26" value="接口方案执行器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="220" width="160" height="86" as="geometry" />
+          <mxGeometry x="380" y="191" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-27" value="+ field: 集成对象执行器" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-26">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -84,7 +84,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-54" value="代理集成对象执行器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="55" y="430" width="210" height="86" as="geometry" />
+          <mxGeometry x="55" y="401" width="210" height="86" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-55" value="+ 集成对象执行器映射: java.util.Map" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-54">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
@@ -96,20 +96,20 @@
           <mxGeometry y="60" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-81" value="«interface»&lt;br&gt;&lt;b&gt;集成对象执行器&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="380" width="110" height="50" as="geometry" />
+          <mxGeometry x="500" y="351" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.236;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=0;endSize=15;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-82" target="QDC6DLgOSGsQadJOwINI-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=blockThin;endFill=0;endSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-82">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="430" as="targetPoint" />
+            <mxPoint x="510" y="401" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-82" value="结构集成对象执行器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="265" y="580" width="160" height="86" as="geometry" />
+          <mxGeometry x="265" y="551" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="QDC6DLgOSGsQadJOwINI-83" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-82">
+        <mxCell id="QDC6DLgOSGsQadJOwINI-83" value="+ 链接: 代理链接" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-82">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-84" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-82">
@@ -123,13 +123,13 @@
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=blockThin;endFill=0;endSize=15;entryX=0.382;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-86" target="QDC6DLgOSGsQadJOwINI-81">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="430" as="targetPoint" />
+            <mxPoint x="550" y="401" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-86" value="数据表集成对象执行器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="580" width="160" height="86" as="geometry" />
+          <mxGeometry x="440" y="551" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="QDC6DLgOSGsQadJOwINI-87" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-86">
+        <mxCell id="QDC6DLgOSGsQadJOwINI-87" value="+ 链接: 代理链接" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-86">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-88" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-86">
@@ -145,9 +145,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-90" value="查询服务集成对象执行器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="580" width="160" height="86" as="geometry" />
+          <mxGeometry x="620" y="551" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="QDC6DLgOSGsQadJOwINI-91" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-90">
+        <mxCell id="QDC6DLgOSGsQadJOwINI-91" value="+ 链接: 代理链接" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-90">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-92" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-90">
@@ -163,9 +163,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-94" value="加载服务集成对象执行器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="800" y="580" width="160" height="86" as="geometry" />
+          <mxGeometry x="800" y="551" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="QDC6DLgOSGsQadJOwINI-95" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-94">
+        <mxCell id="QDC6DLgOSGsQadJOwINI-95" value="+ 链接: 代理链接" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-94">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-96" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-94">
@@ -175,23 +175,23 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-131" value="«interface»&lt;br&gt;&lt;b&gt;连接工厂&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="465" y="760" width="110" height="50" as="geometry" />
+          <mxGeometry x="465" y="791" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-132" value="«interface»&lt;br&gt;&lt;b&gt;连接&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="755" y="850" width="110" height="50" as="geometry" />
+          <mxGeometry x="755" y="881" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-134" value="Create" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-131" target="QDC6DLgOSGsQadJOwINI-132">
           <mxGeometry x="-0.1667" width="160" relative="1" as="geometry">
-            <mxPoint x="520" y="890" as="sourcePoint" />
-            <mxPoint x="680" y="890" as="targetPoint" />
+            <mxPoint x="520" y="921" as="sourcePoint" />
+            <mxPoint x="680" y="921" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="810" y="785" />
+              <mxPoint x="810" y="816" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-135" value="RESTful连接工厂" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="55" y="870" width="160" height="60" as="geometry" />
+          <mxGeometry x="55" y="901" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-137" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-135">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
@@ -200,7 +200,7 @@
           <mxGeometry y="34" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-139" value="RFC连接工厂" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="235" y="870" width="160" height="60" as="geometry" />
+          <mxGeometry x="235" y="901" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-140" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-139">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
@@ -209,7 +209,7 @@
           <mxGeometry y="34" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-142" value="MySQL连接工厂" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="415" y="870" width="160" height="60" as="geometry" />
+          <mxGeometry x="415" y="901" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-143" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-142">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
@@ -218,7 +218,7 @@
           <mxGeometry y="34" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-145" value="RESTful连接" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="960" width="160" height="86" as="geometry" />
+          <mxGeometry x="550" y="991" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-146" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-145">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -230,7 +230,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-149" value="RFC连接" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="960" width="160" height="86" as="geometry" />
+          <mxGeometry x="730" y="991" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-150" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-149">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -242,7 +242,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-153" value="MySQL连接" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="910" y="960" width="160" height="86" as="geometry" />
+          <mxGeometry x="910" y="991" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-154" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-153">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -255,86 +255,146 @@
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-158" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-135" target="QDC6DLgOSGsQadJOwINI-131">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="190" y="810" as="sourcePoint" />
-            <mxPoint x="350" y="810" as="targetPoint" />
+            <mxPoint x="190" y="841" as="sourcePoint" />
+            <mxPoint x="350" y="841" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="135" y="820" />
-              <mxPoint x="290" y="820" />
-              <mxPoint x="290" y="785" />
+              <mxPoint x="135" y="851" />
+              <mxPoint x="290" y="851" />
+              <mxPoint x="290" y="816" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-159" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.191;entryY=0.988;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;entryPerimeter=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-139" target="QDC6DLgOSGsQadJOwINI-131">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="210" y="1030" as="sourcePoint" />
-            <mxPoint x="370" y="1030" as="targetPoint" />
+            <mxPoint x="210" y="1061" as="sourcePoint" />
+            <mxPoint x="370" y="1061" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-160" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-142" target="QDC6DLgOSGsQadJOwINI-131">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="330" y="1010" as="sourcePoint" />
-            <mxPoint x="620" y="840" as="targetPoint" />
+            <mxPoint x="330" y="1041" as="sourcePoint" />
+            <mxPoint x="620" y="871" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-161" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-145" target="QDC6DLgOSGsQadJOwINI-132">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="400" y="1110" as="sourcePoint" />
-            <mxPoint x="560" y="1110" as="targetPoint" />
+            <mxPoint x="400" y="1141" as="sourcePoint" />
+            <mxPoint x="560" y="1141" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-162" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-149" target="QDC6DLgOSGsQadJOwINI-132">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="330" y="1130" as="sourcePoint" />
-            <mxPoint x="490" y="1130" as="targetPoint" />
+            <mxPoint x="330" y="1161" as="sourcePoint" />
+            <mxPoint x="490" y="1161" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-163" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-153" target="QDC6DLgOSGsQadJOwINI-132">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="880" y="890" as="sourcePoint" />
-            <mxPoint x="1040" y="890" as="targetPoint" />
+            <mxPoint x="880" y="921" as="sourcePoint" />
+            <mxPoint x="1040" y="921" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-170" value="Create" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.511;exitY=1.145;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.501;entryY=1.094;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-144" target="QDC6DLgOSGsQadJOwINI-156">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="230" y="1100" as="sourcePoint" />
-            <mxPoint x="410" y="1140" as="targetPoint" />
+            <mxPoint x="230" y="1131" as="sourcePoint" />
+            <mxPoint x="410" y="1171" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="497" y="1080" />
-              <mxPoint x="990" y="1080" />
+              <mxPoint x="497" y="1111" />
+              <mxPoint x="990" y="1111" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-171" value="Create" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.497;exitY=1.111;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.503;entryY=1.094;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-141" target="QDC6DLgOSGsQadJOwINI-152">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="280" y="980" as="sourcePoint" />
-            <mxPoint x="340" y="1090" as="targetPoint" />
+            <mxPoint x="280" y="1011" as="sourcePoint" />
+            <mxPoint x="340" y="1121" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="315" y="1120" />
-              <mxPoint x="811" y="1120" />
+              <mxPoint x="315" y="1151" />
+              <mxPoint x="811" y="1151" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-172" value="Create" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1.111;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.501;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-138" target="QDC6DLgOSGsQadJOwINI-148">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="60" y="1040" as="sourcePoint" />
-            <mxPoint x="220" y="1040" as="targetPoint" />
+            <mxPoint x="60" y="1071" as="sourcePoint" />
+            <mxPoint x="220" y="1071" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="135" y="1150" />
-              <mxPoint x="630" y="1150" />
+              <mxPoint x="135" y="1181" />
+              <mxPoint x="630" y="1181" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-174" value="代理连接" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="674" width="160" height="86" as="geometry" />
+          <mxGeometry x="80" y="720" width="170" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="QDC6DLgOSGsQadJOwINI-175" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-174">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="QDC6DLgOSGsQadJOwINI-175" value="+ 连接工厂映射: java.util.Map&#xa;+ 连接映射: java.util.Map" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-174">
+          <mxGeometry y="26" width="170" height="34" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-176" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-174">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="60" width="170" height="8" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-177" value="+ execute(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-174">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+          <mxGeometry y="68" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QDC6DLgOSGsQadJOwINI-179" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1.001;entryY=0.938;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryPerimeter=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-131" target="QDC6DLgOSGsQadJOwINI-175">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="750" as="sourcePoint" />
+            <mxPoint x="500" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDC6DLgOSGsQadJOwINI-180" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.996;entryY=0.071;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryPerimeter=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-132" target="QDC6DLgOSGsQadJOwINI-175">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="760" as="sourcePoint" />
+            <mxPoint x="780" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDC6DLgOSGsQadJOwINI-184" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-175" target="QDC6DLgOSGsQadJOwINI-132">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="670" as="sourcePoint" />
+            <mxPoint x="600" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDC6DLgOSGsQadJOwINI-190" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.504;entryY=1.197;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-132" target="QDC6DLgOSGsQadJOwINI-97">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="920" y="770" as="sourcePoint" />
+            <mxPoint x="1080" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="881" y="881" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDC6DLgOSGsQadJOwINI-191" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1.052;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-132" target="QDC6DLgOSGsQadJOwINI-93">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="990" y="770" as="sourcePoint" />
+            <mxPoint x="1150" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="894" />
+              <mxPoint x="910" y="680" />
+              <mxPoint x="700" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDC6DLgOSGsQadJOwINI-192" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.501;entryY=1.124;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-132" target="QDC6DLgOSGsQadJOwINI-89">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="940" y="740" as="sourcePoint" />
+            <mxPoint x="1100" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="906" />
+              <mxPoint x="940" y="700" />
+              <mxPoint x="520" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDC6DLgOSGsQadJOwINI-193" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.501;entryY=1.197;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-132" target="QDC6DLgOSGsQadJOwINI-85">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="980" y="770" as="sourcePoint" />
+            <mxPoint x="1140" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="918" />
+              <mxPoint x="970" y="720" />
+              <mxPoint x="345" y="720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
