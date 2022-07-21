@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T06:32:51.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zun0x82DwrNwp4lruz88" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-21T06:45:48.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iBOvV6i685NiTOy-Jt4_" version="20.0.4" type="github">
   <diagram id="oWcdZRQ7xZrGSE6Tlrnx" name="第 1 页">
     <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -99,11 +99,20 @@
           <mxGeometry x="500" y="351" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.236;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=0;endSize=15;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-82" target="QDC6DLgOSGsQadJOwINI-57">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="510" />
+              <mxPoint x="105" y="510" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=blockThin;endFill=0;endSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-82">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="401" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345" y="480" />
+              <mxPoint x="510" y="480" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-82" value="结构集成对象执行器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -119,7 +128,12 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.411;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=0;endSize=15;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-86" target="QDC6DLgOSGsQadJOwINI-57">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="520" />
+              <mxPoint x="141" y="520" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=blockThin;endFill=0;endSize=15;entryX=0.382;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-86" target="QDC6DLgOSGsQadJOwINI-81">
           <mxGeometry relative="1" as="geometry">
@@ -138,8 +152,14 @@
         <mxCell id="QDC6DLgOSGsQadJOwINI-89" value="+ execute(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-86">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QDC6DLgOSGsQadJOwINI-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=0;endSize=15;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-90" target="QDC6DLgOSGsQadJOwINI-57">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QDC6DLgOSGsQadJOwINI-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;endSize=15;entryX=0.588;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-90" target="QDC6DLgOSGsQadJOwINI-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="530" />
+              <mxPoint x="179" y="530" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.658;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=blockThin;endFill=0;endSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-90" target="QDC6DLgOSGsQadJOwINI-81">
           <mxGeometry relative="1" as="geometry" />
@@ -156,11 +176,22 @@
         <mxCell id="QDC6DLgOSGsQadJOwINI-93" value="+ execute(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QDC6DLgOSGsQadJOwINI-90">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QDC6DLgOSGsQadJOwINI-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.85;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=0;endSize=15;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-94" target="QDC6DLgOSGsQadJOwINI-57">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QDC6DLgOSGsQadJOwINI-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;endSize=15;entryX=0.776;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-94" target="QDC6DLgOSGsQadJOwINI-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="540" />
+              <mxPoint x="218" y="540" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.909;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=blockThin;endFill=0;endSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-94" target="QDC6DLgOSGsQadJOwINI-81">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="470" />
+              <mxPoint x="600" y="470" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-94" value="加载服务集成对象执行器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="800" y="551" width="160" height="86" as="geometry" />
