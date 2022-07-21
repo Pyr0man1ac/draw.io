@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T07:25:38.122Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="84YoEhtPPqA6DBaaAMJE" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-21T07:46:10.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="dHOst4rebxvKeftIMhCB" version="20.0.4" type="github">
   <diagram id="oWcdZRQ7xZrGSE6Tlrnx" name="第 1 页">
     <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -77,11 +77,22 @@
         <mxCell id="QDC6DLgOSGsQadJOwINI-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=blockThin;endFill=0;endSize=15;dashed=1;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-54" target="QDC6DLgOSGsQadJOwINI-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QDC6DLgOSGsQadJOwINI-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.513;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=0;endSize=15;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-54" target="QDC6DLgOSGsQadJOwINI-29">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QDC6DLgOSGsQadJOwINI-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.513;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=0;endSize=15;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-54" target="QDC6DLgOSGsQadJOwINI-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="401" />
+              <mxPoint x="210" y="340" />
+              <mxPoint x="462" y="340" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="QDC6DLgOSGsQadJOwINI-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.513;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=0;endSize=15;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-54" target="QDC6DLgOSGsQadJOwINI-25">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QDC6DLgOSGsQadJOwINI-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.513;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=0;endSize=15;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDC6DLgOSGsQadJOwINI-54" target="QDC6DLgOSGsQadJOwINI-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="107" y="310" />
+              <mxPoint x="222" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QDC6DLgOSGsQadJOwINI-54" value="代理集成对象执行器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;glass=0;gradientColor=none;swimlaneFillColor=none;" vertex="1" parent="1">
           <mxGeometry x="55" y="401" width="210" height="86" as="geometry" />
